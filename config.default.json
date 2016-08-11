@@ -1,0 +1,51 @@
+{
+  "db": {
+    "url": "mongodb://localhost:27017/mensa"
+  },
+  "server": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "flags": {
+    "1": "mit Farbstoff",
+    "2": "mit Konservierungsstoff",
+    "3": "mit Antioxidationsmittel",
+    "4": "mit Geschmacksverstärker",
+    "5": "geschwefelt",
+    "6": "geschwärzt",
+    "7": "gewachst",
+    "8": "mit Phosphat",
+    "9": "mit Süßungsmittel",
+    "10": "enthält eine Phenylalaninquelle",
+    "13": "kann die Aktivität und Aufmerksamkeit von Kindern beeinträchtigen",
+    "14": "mit kakaohaltiger Fettglasur",
+    "15": "koffeinhaltig",
+    "16": "chininhaltig",
+    "Gl": "enthält Gluten",
+    "Kr": "enthält Krebstiere",
+    "Ei": "enthält Hühnerei",
+    "Fi": "enthält Fisch",
+    "Er": "enthält Erdnüsse",
+    "So": "enthält Soja",
+    "Mi": "enthält Milch- und Milchzucker",
+    "Nu": "enthält Schalenfrüchte",
+    "Sel": "enthält Sellerie",
+    "Sen": "enthält Senf",
+    "Ses": "enthält Sesam",
+    "Su": "enthält Schwefeloxid/Sulfite",
+    "Lu": "enthält Lupine",
+    "We": "enthält Weichtiere",
+    "A": "enthält Alkohol",
+    "F": "Fisch",
+    "G": "Geflügel",
+    "K": "Knoblauch",
+    "L": "Lammfleisch",
+    "R": "Rindfleisch",
+    "S": "Schweinefleisch",
+    "T": "enthält Bestandteile tierischen Ursprungs (z.B. Sahne, Quark, Käse, Ei)",
+    "T\"": "enthält tierische Bestandteile, die nicht für Vegetarier geeignet sind (z.B. Gelatine, tierisches Lab, tierische Farbstoffe wie echtes Karmin oder Sepia)",
+    "V": "Vegetarische Speisen",
+    "V*": "Vegane Speisen",
+    "W": "Wildfleisch"
+  }
+}

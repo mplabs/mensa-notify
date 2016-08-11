@@ -1,0 +1,11 @@
+{
+  "name": "mensa-notify",
+  "version": "1.0.0",
+  "description": "A mensa menu notifier.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Felix Dürrwald <mplabs@mplabs.de>",
+  "license": "MIT"
+}
