@@ -1,0 +1,39 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/paper-toolbar/paper-toolbar.html">
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+<script src="../../bower_components/moment/min/moment-with-locales.min.js"></script>
+
+<dom-module id="mensa-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    
+    <paper-toolbar>
+      <paper-icon-button icon="menu" on-tap="menuAction"></paper-icon-button>
+      <div class="title">Title</div>
+      <paper-icon-button icon="more-vert" on-tap="moreAction"></paper-icon-button>
+    </paper-toolbar>
+
+  </template>
+
+  <script>
+  moment.locale('de-de')
+
+    Polymer({
+
+      is: 'mensa-app',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'mensa-app',
+        },
+      },
+
+    });
+  </script>
+</dom-module>

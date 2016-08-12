@@ -5,7 +5,7 @@ const router = express.Router();
 
 module.exports = function(app) {
 
-  router.use('/weeks', require('./week')(app));
+  router.use('/days', require('./days')(app));
 
   return router;
 }

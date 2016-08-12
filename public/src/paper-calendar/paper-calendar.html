@@ -1,0 +1,47 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+<script src="../../bower_components/moment/min/moment-with-locales.min.js"></script>
+<script src="../../bower_components/moment-range/dist/moment-range.min.js"></script>
+
+<dom-module id="paper-calendar">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
+    <header>
+      
+    </header>
+    <div id="container">
+      <template is="dom-repeat" items="[[daysInMonth]]" as="day"></template>
+    </div>
+
+  </template>
+  <script>
+    Polymer({
+      is: 'paper-calendar',
+
+      properties: {
+        locale: {
+          type: String,
+          notify: true,
+          value: 'de-de'
+        },
+
+        month: {
+          notify: true,
+          value: function() {
+            return moment().month();
+          }
+        }
+      },
+
+      created: function() {
+        moment.locale(this.locale);
+      }
+    });
+  </script>
+</dom-module>

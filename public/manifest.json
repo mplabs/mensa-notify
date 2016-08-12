@@ -1,0 +1,7 @@
+{
+  "name": "mensa-notify",
+  "short_name": "mensa-notify",
+  "description": "A mensa menu notifier.",
+  "start_url": "/",
+  "display": "standalone"
+}
